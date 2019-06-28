@@ -1,0 +1,449 @@
+
+
+#responsive_logo {
+	float: left;
+	display: block;
+	margin-top: -25px;
+	padding: 25px 30px ;
+}
+
+#responsive_logo .logo {
+	float: left;
+	font-family: 'agencyfbbold', sans-serif;
+	margin-top: -25px;
+	padding: 25px 0px 25px 0px;
+	color: #FFFFFF;
+}
+
+#responsive_logo a {
+    color: #FFFFFF;
+}
+
+#responsive_logo a:hover {
+	color: #00BAFF;
+}
+
+
+
+
+
+
+
+
+
+
+/*Below is thee stuff for the responsive layout*/
+
+@media screen and (min-width: 170px) and (max-width: 600px) {
+	body {
+		font-size: 70%;
+		overflow-x: hidden;
+
+	}
+
+	header {
+		display: none;
+	}
+
+	header.sticky img {
+		display: none;
+	}
+
+	menu {
+		display: inline;
+		position: fixed;
+		top: 0;
+		left: 0px;
+		margin: 10px;
+		z-index: 10000;
+	}
+
+	menu img {
+		width: 30px;
+		height: 30px;
+	}
+
+
+
+	#slide1 {
+		min-height: 92vh;
+	}
+
+	#slide1 .products {
+		margin-top: 0;
+	}
+
+	#slide1_content {
+		margin-top: 15%;
+	}
+
+	#slide1_content img {
+		margin-top: 2em;
+		width: 100%;
+	}
+
+	#slide2_content {
+		width: 90%;
+		padding: 0;
+	}
+
+	#slide2_content img.goat {
+		width: 85%;
+	}
+
+	#slide3_content img.goat {
+		width: 85%;
+	}
+
+	#slide4_content img.goat {
+		width: 85%;
+	}
+
+	#slide3, #slide4, #slide6, #slide7 {
+		padding: 10px 0 20px 0;
+		min-height: 100vh;
+	}
+
+	#slide3_content li {
+		background: url(../images/list_style_check-responsive.png) no-repeat;
+		padding: 0px 0 0 20px;
+	}
+
+	#slide3_content ul {
+		width: 100%;
+		display: block;
+		float: none;
+		padding: 10px 0;
+	}
+
+	#slide3_content, #slide4_content, #slide5_content, #slide6_content, #slide7_content {
+		font-size: 0.75em;
+		padding: 0;
+	}
+
+
+	/*Slide 4 Stuff*/
+
+	#slide4_content h2 {
+		margin-bottom: 0;
+	}
+
+	
+
+	#footer-top {
+		width: 100%;
+	}
+
+	.top_content {
+		float: left;
+		width: 100%;
+		display: block;
+		padding: 10px 0;
+	}
+
+	#footer-top input.email_box {
+		width: 60%;
+	}
+
+	#footer-middle .content {
+		text-align: center;
+		padding: 0em 0 1em 0;
+	}
+
+	#footer-middle .blog_content {
+		width: 90%;
+		float: none;
+		margin: 0 auto;
+		margin-top: 1em;
+	}
+
+	#footer-middle-next p {
+		float: left; 
+		padding: 0 40px 0 0;
+		clear: both;
+	}
+
+	.instagram img, .facebook img, .twitter img {
+		border: none;
+		width: 15px;
+		height: 15px;
+	}
+
+	.twitter {
+		bottom: 19em;
+	}
+
+	.instagram {
+		bottom: 16.5em;
+	}
+
+	.facebook {
+		bottom: 14em;
+	}
+
+
+
+	.gallery-container{
+	flex-direction: column
+	}
+
+	.Gallery-Description{
+	flex-direction: column
+	}
+
+	.gallery-image-container-2{
+		flex: 1;
+		width: 90vw;
+		left: 0;
+	}
+
+	.gallery-image-container {
+		flex: 1;
+		width: 90vw;
+	}
+
+	.Gallery-Description {
+		display: none;
+	}
+
+	.text {
+		font-size: 10vw;
+	}
+
+	.gallery-container {
+		left: -3vw;
+	}
+
+
+	.gallery-image-container {
+		width: 95vw;
+		left: 0;
+	}
+
+	.gallery-image-container-2{
+		margin-top: 0;
+	}
+
+	#slide2_content  {
+		margin-bottom: 300vw;
+		display: block;
+	}
+
+	#slide2  p {
+		font-size: 6vw;
+	}
+
+	#slide2 {
+	display: block;
+	padding-bottom: 110vw;
+	}
+
+	#slide3 {
+		margin-top: 10vw;
+		display: block;
+	}
+
+	#slide3_content p.heading2 {
+   	 font-size: 6vw;
+	}
+
+	#slide3_content p {
+		font-size: 3vw;
+	}
+
+	#slide3_content  {
+		display: block;
+	}
+
+
+}
+
+@media screen and (min-width: 601px) and (max-width: 800px) {
+	#slide1 {
+		padding: 4vh 0 0vh 0;
+		min-height: 96vh;
+	}
+
+	#slide1_content {
+		margin-top: 1em;
+	}
+
+
+#slide1_content img {
+	margin-top: -2em;
+}
+
+	header {
+		bottom: 0;
+	}
+
+	#slide1 .products {
+		margin-top: -1em;
+	}
+
+	#ul_holder {
+		width: 90%;
+		margin: 0 auto;
+	}
+
+	#image_holder {
+		width: 99%;
+		margin: 0 auto;
+		float: none;
+	}
+
+	#image_holder img {
+		width: 65%;
+		padding: 10px 0;
+		margin: 0 auto;
+	}
+
+	#slide3_content ul {
+		width: 100%;
+		display: block;
+		float: none;
+		padding: 10px 0;
+	}
+	
+	#slide4_content .price_box { 
+		width: 44%;
+		margin: 4% 4% 0 0;
+	}
+
+	.copyright {
+		width: 50%;
+	}
+
+	.instagram img, .facebook img, .twitter img {
+		border: none;
+		width: 15px;
+		height: 15px;
+	}
+
+	.twitter {
+		bottom: 19em;
+	}
+
+	.instagram {
+		bottom: 16.5em;
+	}
+
+	.facebook {
+		bottom: 14em;
+	}
+
+
+
+}
+
+@media screen and (min-width: 801px) and (max-width: 839px) {
+	.copyright {
+		width: 50%;
+	}
+}
+
+
+@media screen and (min-width: 751px) {
+	#responsive_menu {
+		display: none;
+	}
+
+	#responsive_logo {
+		display: none;
+	}
+}
+
+@media screen and (min-width: 801px) and (max-width: 1056px) {
+	#slide1_content {
+		margin-top: 1em;
+	}
+	
+}
+
+@media screen and (min-width: 300px) and (max-width: 613px) {
+	body {
+		overflow-x: hidden;
+	}
+}
+
+/*Adjust for the Heights of the various viewports*/
+
+@media screen  and (max-width: 1024px) {
+	
+
+}
+
+@media screen and (max-width: 1280px) {
+	
+	#slide1 {
+		margin-top: 0;
+		top: 0;
+	}
+
+	#slide1_content {
+		margin-top: 0;
+	}
+
+
+	.Whats-on-our-farm-image{
+		display: none;
+	}
+
+	.Restaurant-image {
+		display: none;
+	}
+
+	body {
+		background: white;
+	}
+
+	#slide2{
+		height: 150vw;
+		margin-left: 0;
+		padding-left: 0;
+		padding-right:0;
+		font-size: 1.5vw
+	}
+
+	#slide3{
+		left: 0;
+		width: 100vw;
+		margin: auto;
+		margin-left: 0;
+		padding: 20%;
+		align-content: center;
+		text-align: center;
+		margin-right:0 ;
+		padding-left: 0;
+		padding-bottom: 0;
+		height: 0vh;
+		padding-right:0;
+		font-size: 1.5vw
+	}
+
+	#slide4 {
+		font-size: 1.5vw;
+	}
+
+	#slide2_content {
+	width: 100vw;
+	text-align: center;
+	margin: 0 auto;
+	margin-top: -5vw;
+	left: 0;
+	margin: auto;
+	}
+
+	#slide3_content {
+	width: 100vw;
+	text-align: center;
+	margin: 0 auto;
+	left: -10vw;
+	margin: auto;
+	align-content: center;
+	margin-right: 0;
+	}
+
+}
+
+

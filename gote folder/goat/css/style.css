@@ -1,0 +1,1033 @@
+@charset "utf-8";
+/* CSS Document 
+Created By: Kamron J. Bennett
+Website: www.cmit.com.jm
+Email: kamron@cmit.com.jm
+Copyright Date: April 12, 2014
+All Rights Reserved
+*/
+
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Alfa+Slab+One|Ubuntu:400,300,300italic);
+
+* {
+	margin : 0;
+	padding : 0;
+} 
+
+body {
+	background: #e6ffe6;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	font-size: 100%;
+	overflow-x: hidden;
+}
+
+body a {
+	text-decoration: none;
+	color: #B3B3B3;
+}
+
+menu {
+	display: none;
+}
+
+header {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	font-weight: bold;
+	background: #e6ffe6;
+	background: rgba(255, 255, 255, 1);
+	border-top: 1px solid #FFFFFF;
+	font-family: 'klavikalight', sans-serif;
+	font-size: 18px;
+	width: 100%;
+	padding: 15px 0 35px 0;
+	z-index: 100;
+	height: 41px;
+    -webkit-animation: fadein 1s; /* Safari and Chrome */
+    -moz-animation: fadein 1s; /* Firefox */
+    -ms-animation: fadein 1s; /* Internet Explorer */
+    -o-animation: fadein 1s; /* Opera */
+    animation: fadein 1s;
+    z-index: 245924597273942274344344323;
+}
+
+header img {
+	display: none;
+}
+
+header a {
+	color: #000000;
+}
+
+header a:hover {
+	color: white;
+	background: #3fa1da;
+}
+
+header.sticky {
+	background: rgb(255, 255, 255);
+	background: rgba(255, 255, 255);
+	text-align: left;
+	position: fixed;
+	top: 0em;
+	height: 5em;
+	padding: 12px 0 12px 0;
+	font-size: 12px;
+	z-index: 100;
+    -webkit-animation: fadein 1s; /* Safari and Chrome */
+    -moz-animation: fadein 1s; /* Firefox */
+    -ms-animation: fadein 1s; /* Internet Explorer */
+    -o-animation: fadein 1s; /* Opera */
+    animation: fadein 1s;
+    opacity: 1;
+    z-index: 99999999999999999999999999999999999999999;
+}
+
+header.sticky img {
+	width: 112px;
+	padding-top: 15px;
+	display: block;
+}
+
+header.sticky a {
+	color: #000000;
+}
+
+header.sticky ul {
+	margin-top: -65px;
+	z-index: 24592459727394743443443223;
+	 opacity: 1;
+}
+
+nav {
+	text-align: right;
+	letter-spacing: 1px;
+	color: #FFFFFF;
+	font-size: 170%;
+	margin-right: 2%;
+}
+
+nav a {
+    color: #000000;
+	padding: 0.5em;
+	border-radius: 1px;
+
+}
+
+nav#non_responsive img {
+	padding: 1em 1em;
+}
+
+nav a:hover, nav a.nav-active, nav a.current {
+	color: white;
+	-webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+nav ul {
+	list-style: none;
+	margin-right: 0.5em;
+	margin-top: 11px;
+	z-index: 24592459727394743443443232;
+}
+
+nav li {
+	display: inline;
+	z-index: 24592459727394743443443232;
+
+}
+
+nav .logo {
+	float: left;
+	margin-top: -25px;
+	padding: 27px 32px;
+}
+
+nav#non_responsive img {
+	margin-top: -25px;
+}
+
+nav#non_responsive {
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+#slide1 {
+	min-height: 100vh;
+	position: relative;
+	background-image: url(../images/background.jpg);
+	opacity: 0.9;
+	background-size: cover; 
+}
+
+#slide1_content {
+	width: 100%;
+	height: 75%;
+	margin: 0 auto;
+	text-align: center;
+	padding: 1em 1em;
+	color: #000000;
+	z-index: 3222222222222;
+}
+
+#slide1_content img {
+	margin-top: 3.9%;
+	width: 40%;
+	z-index: 3222222222222;
+}
+
+#slide1 .products {
+	margin-top: -1em;
+	font-weight: 300;
+    font-family: 'klavikalight', sans-serif;
+	font-size: 2em;
+    color: #FFFC07;
+}
+
+.no_show {
+	display: none;
+}
+
+
+
+
+
+
+
+
+
+#slide2 {
+	padding: 10%;	
+	background: #FFFFFF;
+	height: 130vh;
+
+}
+
+#slide2_content {
+	width: 50%;
+	text-align: center;
+	margin: 0 auto;
+	padding-bottom: 50px;
+	right: 15vw;
+	margin-left: 0;
+	margin-top: -5vw;
+}
+
+#slide2_content img.goat {
+	padding: 20px 20px 0 20px;
+	top: 10px;
+	width: 33vw;
+}
+
+
+#slide2_content h1.main {
+	font-family: 'Alfa Slab One', sans-serif;
+	font-size: 4em; 
+	margin-bottom: 5%;
+}
+
+#slide2_content p {
+	font-size: 155%;
+	font-weight: 600;
+	padding: 20px;
+	font-family: agencyfbbold;
+}
+
+#slide2_content a.link2 {
+	position: relative;
+	top: 6.8vh;
+	margin: auto;
+	padding: 27px 30px 27px 30px;
+	background:  #3fa1da;
+	border: 2px solid transparent;
+	font-weight: bold;
+	color: white; 
+	transition: all .45s ease;
+	border-radius: 60px;
+	font-family: Open Sans;
+	font-size: 80%;
+}
+
+#slide2_content a.link2:hover {
+	background:  white;
+	border: 2px solid black;
+	color: black; 
+}
+
+
+.Whats-on-our-farm-image {
+	width: 40vw;
+	padding: 1vw;
+	height: 40vw;
+	right: 2vw;
+	top: 60vw;
+	position: absolute;
+	background: url('../images/Irie-Goat-Farms/WhatsApp-Image-1.jpg') no-repeat;	
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	border-radius: 5px;
+}
+
+
+
+
+
+.link-2-p {
+	padding: 20px;
+	font-family: Open Sans;
+}
+
+
+ #slide3 .link2, #slide4 .link2 {
+	position: relative;
+	top: 6.8vh;
+	margin: auto;
+	padding: 27px 30px 27px 30px;
+	background:  #3fa1da;
+	border: 2px solid transparent;
+	font-weight: bold;
+	color: white; 
+	transition: all .45s ease;
+	border-radius: 60px;
+	margin: auto;
+	font-size: 115%;
+	font-family: Open Sans;
+}
+
+#slide3 .link2:hover, #slide4 .link2:hover {
+	background:  white;
+	border: 2px solid black;
+	color: black; 
+}
+
+
+
+
+
+#slide3 {
+	min-height: 100vh;
+	padding: 4.1em;
+	background:  #e6ffe6;
+	/*background: url(../images/background.jpg) no-repeat center center fixed #FFFFFF;*/
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover; 
+	align-content: center;
+	width: 50%;
+	text-align: center;
+	margin: 0 auto;
+	padding-bottom: 110px;
+	left: 15vw;
+	margin-right: 0;
+	margin-top: 0vw;
+	padding-top: 1.3vw;
+}
+
+#image_holder {
+	width: 90%; 
+	margin: 0 auto; 
+	text-align: center;
+}
+
+#image_holder img {
+	border: none;
+}
+
+#slide3 a {
+	color: #656871;
+}
+
+#slide3 a:hover {
+	color: #FF3333;
+}
+
+#slide3 img {
+	padding: 20px 20px 0 20px;
+	top: 10px;
+	width: 33vw;
+}
+
+#slide3 header {
+	background: rgb(0, 22, 35);
+	background: rgba(0, 22, 35, 0.6);
+	text-align: left;
+	position: fixed;
+	top: -1px;
+	padding: 10px 0 0px 0;
+	font-size: 12px;
+	z-index: 100;
+    -webkit-animation: fadein 1s; /* Safari and Chrome */
+    -moz-animation: fadein 1s; /* Firefox */
+    -ms-animation: fadein 1s; /* Internet Explorer */
+    -o-animation: fadein 1s; /* Opera */
+    animation: fadein 1s;
+}
+
+#slide3 header a {
+	color: #FFFFFF;
+	margin-left: 10px;
+}
+
+#slide3_content {
+	width: 75%;
+	margin: 0 auto;
+	margin-top: 2em;
+	padding: 0 0 6em 0;
+	align-content: center;
+	text-align: center;
+}
+
+#slide3_content p.heading {
+    font-size: 4em;
+	color: #990000;
+	text-align: center;
+	padding: 0;
+	margin: -10px 0 0 0;
+    font-family: 'Alfa Slab One', sans-serif;
+    margin-bottom: 5%;
+}
+
+#slide3 h3 {
+	text-align: center;
+    color: #1AB0DE;
+}
+
+
+#slide3_content p.heading2 {
+    font-size: 155%;
+    padding: 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+	color: black;
+	text-align: center;
+	font-family: agencyfbbold;
+}
+
+#slide3_content p.heading3 {
+    font-size: 155%;
+    padding: 3em 0 1em 0;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+	color: #505050;
+	text-align: center;
+	font-family: agencyfbbold;
+}
+
+
+
+#slide3_content ul {
+	display: inline;
+	float: left;
+	list-style: none;
+	width: 32%;
+	margin: 0 1% 0 0;
+}
+
+#slide3_content li {
+	background: url(../images/list_style_check.png) no-repeat;
+	padding: 0px 0 0 30px;
+	margin: 5px 0 0 0;
+}
+
+
+.Restaurant-image {
+	width: 40vw;
+	padding: 1vw;
+	height: 40vw;
+	left: 0vw;
+	top: 124vw;
+	position: absolute;
+	background: url("../images/Irie-Goat-Farms/WhatsApp Image 2019-06-22 at 7.341.03 PM.jpeg") no-repeat;	
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	border-radius: 5px;
+}
+
+
+
+
+
+
+
+.ul_holder {
+	width: 90%; 
+	float: right;
+	font-family: "Open Sans", sans-serif;
+	font-weight: 700;
+	color: #7D7D7D;
+}
+
+
+
+#slide4 {
+	min-height: 100vh;
+	padding-top: 4.1em;
+	background: white;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover; 
+}
+
+#slide4 .link2 {
+	font-size: 50%;
+}
+
+#slide4_content {
+	width: 100%;
+	margin: 0 auto;
+	margin-top: 2em;
+	padding: 0 0 6em 0;
+	text-align: center;
+}
+
+#slide4_content h1 {
+	padding-bottom: 5%;
+	font-family: 'Alfa Slab One', sans-serif;
+	font-size: 4em;
+	color: #3fa1da;
+
+}
+
+#slide4_content img.goat {
+	padding: 20px 20px 0 20px;
+	top: 10px;
+	width: 33vw;
+}
+
+#slide4_content p {
+	font-weight: 700;
+	padding: 20px;
+	font-family: agencyfbbold;
+	font-size: 155%;
+}
+
+
+
+
+
+/*****FLEX-GALLERY******/
+
+
+.gallery-container {
+  display: flex;
+  padding-right: 1vw;
+  padding-left: 1.7vw;
+  flex-wrap: wrap;
+  align-content: center;
+  font-family: agencyfbbold;
+
+}
+
+.gallery-container-2 {
+  display: flex;
+  padding-right: 1vw;
+  padding-left: 1.7vw;
+  flex-wrap: wrap;
+   align-content: center;
+   font-family: agencyfbbold;
+}
+
+.gallery-image-container-2{
+  position: relative;
+  background: black;
+  width: 10vw;
+  height: 52vh;
+  overflow: hidden;
+  flex: 0 55vw;
+  left: 20.5vw;
+  margin: 1vw;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-top: 20vh;
+  z-index: 5;
+}
+
+.gallery-image-container {
+  position: relative;
+  background: black;
+  width: 10vw;
+  height: 50vh;
+  overflow: hidden;
+  flex: 0 40vw;
+  left: 3vw;
+  margin: 2.5vw;
+  cursor: pointer;
+  border-radius: 5px;
+  z-index: 5;
+}
+
+
+.gallery-image {
+  height: 100%;
+  width: 100%;
+  box-sizing: border-box;
+  position: relative;
+  transition: transform 5s;
+}
+
+.gallery-image:hover {
+   transform: scale(1.5);
+}
+
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0.4;
+  transition: .5s ease;
+  background-color: black;
+}
+
+
+.gallery-image-container:hover .overlay {
+  opacity: 0.5;
+}
+
+
+.gallery-image-container:hover .text {
+  z-index: 24592459727394723;
+  animation: textfade 2s ease forwards;
+}
+
+.gallery-image-container:hover .text h4{
+  z-index: 24592459727394723;
+  animation: textfade 1s ease forwards;
+  opacity: 1;
+}
+
+
+.gallery-image-container-2:hover .overlay {
+  opacity: 0.5;
+}
+
+
+.gallery-image-container-2:hover .text {
+    z-index: 24592459727394723;
+  animation: textfade 2s ease forwards;
+}
+
+.gallery-image-container-2:hover .text h4{
+	opacity: 1;
+	animation: textfade 0.5s ease forwards;
+
+}
+
+
+.text {
+  color: white;
+  font-size: 250%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+  opacity: 1;
+  z-index: 24592459727;
+
+}
+
+.text h4 {
+	opacity: 0;
+	font-size: 70%;
+}
+
+
+@keyframes textfade{
+
+	0% {
+		opacity: 0;
+	}
+
+	50%{
+	}
+
+	100% {
+		opacity: 1;
+		
+	}
+}
+
+
+#last-gallery-container {
+  padding-bottom: 10vh;
+}
+
+#gallery-image-1{
+   background-size: cover;
+  background-size: 100% 100%;
+  background-image: url('../Images/Organic-Farm.jpg');
+  
+}
+
+#gallery-image-2{
+     background-size: cover;
+  background-size: 100% 100%;
+  background-image: url('../Images/Dairy-Farm.jpg');
+}
+
+#gallery-image-3{
+  background-size: cover;
+  background-size: 100% 100%;
+  background-image: url(../images/Goat-Yoga.jpg);
+}
+
+
+/**********GALLERY DESCRIPTION*********/
+
+
+.Gallery-Description {
+  display: flex;
+  padding-right: 1vw;
+  padding-left: 1vw;
+  flex-wrap: wrap;
+  align-content: center;
+}
+
+
+.gallery-description-container {
+  position: relative;
+  width: 5vw;
+  height: 50vh;
+  overflow: hidden;
+  flex: 0 40vw;
+  left: 3vw;
+  margin: 2.5vw;
+  margin-top: 0;
+  margin-bottom: -5vw;
+  border-radius: 5px;
+  overflow-wrap: break-word;
+  font-family: agencyfbbold;
+  font-size: 155%;
+}
+
+
+.gallery-description-container-2 {
+  position: relative;
+  overflow-wrap: break-word;
+  width: 50%;
+  height: 50vh;
+  overflow: hidden;
+  flex: 0 50vw;
+  left: 21vw;
+  margin: 2.5vw;
+  margin-top: 0;
+  margin-bottom: 0;
+  border-radius: 5px;
+  font-family: agencyfbbold;
+  font-size: 155%;
+}
+
+
+
+
+
+/************************/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer {
+	font-family: 'Open Sans' sans-serif;
+	color: #B1B1B1;
+	background: #202A3C;
+}
+
+footer a {
+	color: #FFFFFF;
+}
+
+footer a:hover {
+	color: #00BAFF;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*********FOOTER**********/
+
+
+.RastaColors div {height: 0.35vw;margin: 0px;}
+.RastaColors div {height: 0.35vw;margin: 0px;}
+.RastaColors div {height: 0.35vw;margin: 0px;}
+.RastaColors div:nth-child(5n+1) {background: #a31a1a;}
+.RastaColors div:nth-child(5n+2) {background: #027600;}
+.RastaColors div:nth-child(5n+3) {background: #b7af00;}
+
+
+#footer-middle-next {
+	background: #24262D; 
+	min-height: 7em;
+	padding: 1em 2em 2em 2em;
+	text-align: center;
+}
+
+#footer-middle-next p {
+	display: inline;
+	padding: 0 40px 0 0;
+}
+
+#footer-middle-next a {
+	color: white;
+	font-size: 115%;
+	margin-bottom: 15%;
+	cursor: pointer;
+}
+
+.footer-links {
+	position: relative;
+	display: inline-block;
+	left: -0.5%;
+	width: 5%;
+	margin: 0;
+	overflow-wrap: break-word;
+	width: 15vw;
+}
+
+.footer-links a {
+	margin-right: 0%;
+	margin-left: 3%;#
+	right: 6%;
+	position: relative;
+}
+
+#footer-link-1st {
+	border-right: solid white 2px;
+	margin-bottom: 0;
+	padding-right: 5%;
+	overflow-wrap: break-word;
+}
+
+
+#footer-middle-next a:hover {
+	color: #666666;
+}
+
+#footer-middle-next h3 {
+	padding-bottom: 10px;
+	font-size: 150%;
+	margin-top: 1%;
+}
+
+#footer-middle-next h1, h2, h4 {
+	padding-bottom: 10px;
+}
+
+#copyright {
+	background: #292B34; 
+	min-height: 2em; 
+	padding: 1em;
+	font-size: 12px;
+}
+
+.copyright {
+	float: right; 
+	margin-right: 1em;
+	text-align: right;
+	width: 33%; 
+	color: #FFFFFF; 
+	text-transform: uppercase; 
+	font-size: 12px;
+}
+
+/**********************/
+
+/*Below is the stuff required for browser-specific hacks*/
+/*Google Chrome Hack*/
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+}
+
+/*Opera Hack*/
+
+/*IE 6+ Hack here*/
+
+/*Safari Hack here*/
+
+
+
+
+
+
+
+
+.twitter, .facebook, .instagram {
+	background: rgb(0, 0, 0);
+	background: rgba(0, 0, 0, 0.4);
+	padding: 5px 2px 2px 5px;
+	position: fixed;
+	left: 0;
+    z-index: 10000;
+}
+
+
+.twitter {
+	bottom: 15em;
+}
+
+.instagram {
+	bottom: 12em;
+}
+
+.facebook {
+	bottom: 9em;
+}
+
+.instagram img, .facebook img, .twitter img {
+	border: none;
+	width: 30px;
+	height: 30px;
+}
+
+
+  .instagram:hover {
+    background: #027600;
+}
+  .facebook:hover {
+ 	background: #b7af00;
+}
+  .twitter:hover {
+	 background: #a31a1a;
+}
+
+
+.instagram:hover img, .facebook:hover img, .twitter:hover img {
+	background: #990000;
+	padding: 0px 0px 0px 35px;
+	-webkit-transition: all 0.25s ease;
+    -moz-transition: all 0.25s ease;
+    -o-transition: all 0.25s ease;
+    -ms-transition: all 0.25s ease;
+    transition: all 0.25s ease 0s;
+}
+
+.instagram:hover img{
+	 background: #027600;
+}
+
+.facebook:hover img{
+	background: #b7af00;
+} 
+
+.twitter:hover img{
+	 background: #a31a1a;
+}
+
+
+
+
+
+hr {
+	width: 90%;
+	border-radius: 50px;
+	height: 2px;
+	background: #666666;
+}
+
+
+
+/*Other Stuff*/
+.clearthis {
+	margin : 0px;
+	height : 1px;
+	clear : both;
+	float : none;
+	font-size : 1px;
+	line-height : 0px;
+	overflow : hidden;
+}
+
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Firefox */
+@-moz-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Safari and Chrome */
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Internet Explorer */
+@-ms-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Opera */
+@-o-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
